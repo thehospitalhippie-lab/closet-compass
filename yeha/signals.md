@@ -1,0 +1,8 @@
+# Demand signals
+
+Gists only. No usernames, no links to personal posts.
+
+- 2026-11-05: A local subreddit thread asked where to rent or borrow a wheelchair. A local nonprofit loaned one plus a shower chair the same day, and commenters said the library and insurance were the other options (Reddit, NY). Signal: people ask locally, in a hurry, and same-day answers matter.
+- 2026-11-05: A local subreddit user wanted to donate a barely used manual hospital bed. One place they tried didn't work out, and they were "coming up blank" (Reddit, PA). Signal: the donation side is underserved.
+- 2026-11-05: Kansas public radio (Sep 2026): a medical loan closet's CEO said most people learn about loan closets through word of mouth. Signal: discoverability is the core problem.
+- 2026-11-05: GotDME's founder (2024): most lending organizations don't have their own websites and are hard to find through Google. Signal: a sourced listing is real value.

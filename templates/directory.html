@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% from "_macros.html" import listing_card %}
+{% block head %}
+<script type="application/ld+json">{{ itemlist_jsonld | safe }}</script>
+{% endblock %}
+{% block content %}
+<section class="page-head wrap">
+  <p class="eyebrow">Directory · Tennessee</p>
+  <h1>{{ page.title }}</h1>
+  <p class="lede">{{ page.description }}</p>
+</section>
+
+<section class="wrap">
+  <form class="filters" role="search" aria-label="Filter listings" onsubmit="return false">
+    <label class="search">
+      <span class="sr-only">Search by city, county or item</span>
+      <input type="search" id="q" placeholder="Search a city, county or item (e.g. hospital bed)" autocomplete="off">
+    </label>
+    <div class="chips" role="group" aria-label="Region">
+      <button type="button" class="chip" data-region="all" aria-pressed="true">All</button>
+      {% for key, name in region_names.items() %}<button type="button" class="chip" data-region="{{ key }}" aria-pressed="false">{{ name }}</button>{% endfor %}
+    </div>
+    <div class="chips" role="group" aria-label="What you need">
+      <button type="button" class="chip" data-offer="all" aria-pressed="true">Borrow or donate</button>
+      <button type="button" class="chip" data-offer="borrow" aria-pressed="false">I need to borrow</button>
+      <button type="button" class="chip" data-offer="donate" aria-pressed="false">I want to donate</button>
+    </div>
+    <p class="result-count" id="count" aria-live="polite"></p>
+  </form>
+
+  {% for key, name in region_names.items() %}
+  {% set group = listings | selectattr('region', 'equalto', key) | list %}
+  {% if group %}
+  <section class="region-section" id="region-{{ key }}" data-region-section="{{ key }}">
+    <h2>{{ name }} <span class="muted">({{ group | length }})</span></h2>
+    {% if region_blurbs.get(key) %}<p class="region-blurb">{{ region_blurbs[key] }}</p>{% endif %}
+    <div class="card-grid">
+      {% for l in group %}{{ listing_card(l, region_short) }}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+  {% endfor %}
+
+  <section class="callout section">
+    <h2>Don't see one near you?</h2>
+    <p>Ask the social worker or discharge planner at your hospital, hospice or home health agency. They often know church closets that never make it online. You can also search the national <a href="https://gotdme.org/" rel="noopener">GotDME</a> directory, or <a href="{{ url('/suggest/') }}">tell us about a closet</a> so the next family can find it.</p>
+  </section>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url('/static/app.js') }}?v={{ build_id }}" defer></script>{% endblock %}

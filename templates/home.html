@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% from "_macros.html" import listing_card %}
+{% block content %}
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Tennessee · {{ listings | length }} places · every listing sourced</p>
+    <h1>Borrow a wheelchair, walker, shower chair or hospital bed for free.</h1>
+    <p class="lede">Loan closets work like libraries for medical equipment. Churches, nonprofits and disability centers across Tennessee lend it out, often at no cost. Closet Compass helps you find one fast, and helps you pass equipment on when you're done.</p>
+    <div class="hero-paths">
+      <a class="path-card" href="{{ url('/tennessee/') }}">
+        <span class="path-kicker">I need equipment</span>
+        <span class="path-title">Find a loan closet →</span>
+      </a>
+      <a class="path-card path-donate" href="{{ url('/guides/medical-equipment-after-a-death/') }}">
+        <span class="path-kicker">I have equipment to give away</span>
+        <span class="path-title">Where to donate it →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="wrap section">
+  <h2>Browse by part of the state</h2>
+  <ul class="region-grid">
+    {% for key, name in region_names.items() %}
+    <li><a class="region-link" href="{{ url('/tennessee/') }}#region-{{ key }}"><strong>{{ name }}</strong><span>{{ region_counts.get(key, 0) }} {{ 'place' if region_counts.get(key, 0) == 1 else 'places' }}</span></a></li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="wrap section two-col">
+  <div>
+    <h2>Before you call</h2>
+    <ol class="steps">
+      <li><strong>Know the exact item.</strong> Ask your nurse or therapist what size and type you need.</li>
+      <li><strong>Ask if it's in stock.</strong> Many closets run on donations, and inventory changes daily.</li>
+      <li><strong>Ask who can borrow.</strong> Some serve anyone. Others serve one county, one diagnosis or members only.</li>
+      <li><strong>Ask about cost and returns.</strong> Some ask for a small donation, a deposit or a prescription.</li>
+    </ol>
+    <p><a href="{{ url('/guides/borrow-medical-equipment-free/') }}">Read the full borrowing guide →</a></p>
+  </div>
+  <div class="callout">
+    <h2>After a loss</h2>
+    <p>If your person was on hospice, the hospice usually arranges pickup of the bed, oxygen and other equipment it supplied. Medicare rentals may also belong to the supplier. Equipment you own can help the next family.</p>
+    <p><a href="{{ url('/guides/medical-equipment-after-a-death/') }}">What to keep, return or donate →</a></p>
+  </div>
+</section>
+
+<section class="wrap section">
+  <h2>Recently checked</h2>
+  <div class="card-grid">
+    {% for l in recent_listings %}{{ listing_card(l, region_short) }}{% endfor %}
+  </div>
+  <p><a class="btn btn-primary" href="{{ url('/tennessee/') }}">See all {{ listings | length }} Tennessee listings</a></p>
+</section>
+
+<section class="wrap section trust">
+  <h2>How listings are checked</h2>
+  <p>Each listing links to where its details came from and shows the date it was last checked. A green check means the details match the organization's own website. A half-circle means they come from news coverage, so call to confirm. Listings are researched by Yeha, an AI research assistant, from public sources. <a href="{{ url('/suggest/') }}">Tell us if something changed.</a></p>
+</section>
+{% endblock %}

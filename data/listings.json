@@ -1,0 +1,387 @@
+[
+  {
+    "id": "christ-church-nashville",
+    "name": "Christ Church Nashville — Medical Equipment Ministry",
+    "region": "middle",
+    "city": "Nashville",
+    "county": "Davidson",
+    "address": "Christ Church Nashville, Old Hickory Blvd, Nashville, TN (call for the pickup spot)",
+    "offers": [
+      "borrow"
+    ],
+    "equipment": [
+      "Wheelchairs",
+      "Rolling walkers",
+      "Crutches",
+      "Other home medical equipment"
+    ],
+    "serves": "Community members who need equipment. No formal eligibility rules were reported.",
+    "cost": "Free",
+    "loan_terms": "Works like a library: keep items as long as you need them.",
+    "accepts_donations": "ask",
+    "phone": "615-834-6171 ext. 122",
+    "email": "medicalequipment@ccnash.org",
+    "website": "",
+    "hours": "",
+    "notes": "Equipment is new or gently used and sanitized, according to the news report.",
+    "confidence": "news",
+    "sources": [
+      {
+        "title": "NewsChannel 5 (WTVF): Free medical equipment 'library' helps Nashville community in need (Aug 16, 2025)",
+        "url": "https://www.newschannel5.com/news/free-medical-equipment-library-helps-nashville-community-in-need"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "ucp-middle-tennessee",
+    "name": "UCP of Middle Tennessee — Equipment Exchange",
+    "region": "middle",
+    "city": "Nashville",
+    "county": "Davidson",
+    "address": "1200 9th Avenue North, Suite 110, Nashville, TN 37208",
+    "offers": [
+      "borrow",
+      "donate"
+    ],
+    "equipment": [
+      "Durable medical equipment",
+      "Adaptive equipment",
+      "Hygiene and other supplies"
+    ],
+    "serves": "People with disabilities throughout Tennessee, regardless of diagnosis — not only cerebral palsy.",
+    "cost": "Free to people who can't otherwise afford the equipment",
+    "loan_terms": "Equipment is placed with people who need it; ask about returns.",
+    "accepts_donations": "yes",
+    "phone": "615-242-4091",
+    "email": "",
+    "website": "",
+    "hours": "Call to ask — a nonprofit listing says there are no set public hours.",
+    "notes": "Collects, repairs and refurbishes used equipment. Volunteers sometimes deliver.",
+    "confidence": "news",
+    "sources": [
+      {
+        "title": "NewsChannel 5: UCP Equipment Exchange (Ms. Cheap segment)",
+        "url": "https://newschannel5.com/talk-of-the-town/the-most-asked-about-ms-cheap-segment"
+      },
+      {
+        "title": "AARP Tennessee: Recycle Your Old Medical Equipment",
+        "url": "https://states.aarp.org/tn-crutches"
+      },
+      {
+        "title": "Cause IQ: United Cerebral Palsy of Middle Tennessee (IRS filing data)",
+        "url": "https://www.causeiq.com/organizations/united-cerebral-palsy-of-middle-tennessee,581663741/"
+      },
+      {
+        "title": "GivingConnection: United Cerebral Palsy of Middle TN (listing not yet verified by the nonprofit)",
+        "url": "https://givingconnection-production.herokuapp.com/locations/570"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "als-association-tennessee",
+    "name": "ALS Association Tennessee — Equipment Loan Closet",
+    "region": "statewide",
+    "city": "Statewide (Nashville-based chapter)",
+    "county": "",
+    "address": "",
+    "offers": [
+      "borrow",
+      "donate"
+    ],
+    "equipment": [
+      "Gently used durable medical equipment",
+      "Assistive devices"
+    ],
+    "serves": "People living with ALS who are registered with the ALS Association in Tennessee.",
+    "cost": "Free loans. Limited financial help to buy needed equipment may also be available.",
+    "loan_terms": "Ask the care services team.",
+    "accepts_donations": "yes",
+    "phone": "",
+    "email": "",
+    "website": "https://www.als.org/support/programs/durable-medical-equipment-loan-closet-program",
+    "hours": "",
+    "notes": "Contact the DME Program Coordinator or your local ALS care team. To donate, fill out the program's in-kind donation form.",
+    "confidence": "official",
+    "sources": [
+      {
+        "title": "ALS Association: Durable Medical Equipment Loan Closet Program (Tennessee)",
+        "url": "https://www.als.org/support/programs/durable-medical-equipment-loan-closet-program"
+      },
+      {
+        "title": "GuideStar: ALS Association–Tennessee Chapter (Nashville, TN)",
+        "url": "https://www.guidestar.org/profile/94-3124723"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "tennessee-technology-access-program",
+    "name": "Tennessee Technology Access Program (TTAP) — Device Loan & Reuse",
+    "region": "statewide",
+    "city": "Statewide (Nashville office)",
+    "county": "",
+    "address": "Andrew Johnson Tower, 11th Floor, 710 James Robertson Pkwy, Nashville, TN 37243",
+    "offers": [
+      "borrow",
+      "donate"
+    ],
+    "equipment": [
+      "Assistive technology devices",
+      "Durable medical equipment (through reuse)"
+    ],
+    "serves": "People with disabilities and their families, through partner assistive technology centers in each region.",
+    "cost": "Ask — loan and reuse programs are designed to widen access.",
+    "loan_terms": "Device loans are short-term (try before you buy, or while you wait).",
+    "accepts_donations": "yes",
+    "phone": "1-833-772-8347 (One DHS Contact Center)",
+    "email": "TN.TTAP@tn.gov",
+    "website": "https://www.tn.gov/humanservices/ds/ttap.html",
+    "hours": "",
+    "notes": "TTAP's four core programs are Funding Assistance, Device Demonstration, Device Loan and Device Reutilization. Ask which regional center serves your county.",
+    "confidence": "official",
+    "sources": [
+      {
+        "title": "Tennessee Department of Human Services: Tennessee Technology Access Program",
+        "url": "https://www.tn.gov/humanservices/ds/ttap.html"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "mid-south-act-memphis",
+    "name": "Mid-South Access Center for Technology (University of Memphis)",
+    "region": "west",
+    "city": "Memphis",
+    "county": "Shelby",
+    "address": "530 Patterson Street, 119 Patterson Hall, Memphis, TN 38152",
+    "offers": [
+      "borrow",
+      "donate"
+    ],
+    "equipment": [
+      "Assistive technology devices (short-term loan)",
+      "Durable medical equipment (reuse program)"
+    ],
+    "serves": "People with disabilities in Memphis and the Mid-South.",
+    "cost": "Ask",
+    "loan_terms": "Short-term device loans; the reuse program passes on donated equipment.",
+    "accepts_donations": "yes",
+    "phone": "901-678-1489",
+    "email": "act@memphis.edu",
+    "website": "https://www.memphis.edu/act/services/index.php",
+    "hours": "",
+    "notes": "The reuse program promotes donation, repair and reuse of technology and durable medical equipment. A TTAP partner center.",
+    "confidence": "official",
+    "sources": [
+      {
+        "title": "Mid-South ACT: Services",
+        "url": "https://www.memphis.edu/act/services/index.php"
+      },
+      {
+        "title": "Mid-South ACT: Contact",
+        "url": "https://www.memphis.edu/act/about/contact-us.php"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "star-center-jackson",
+    "name": "STAR Center — Durable Medical Equipment",
+    "region": "west",
+    "city": "Jackson",
+    "county": "Madison",
+    "address": "",
+    "offers": [
+      "borrow",
+      "donate"
+    ],
+    "equipment": [
+      "Donated durable medical equipment"
+    ],
+    "serves": "West Tennessee residents who need equipment.",
+    "cost": "Free (donated equipment given at no cost, per a third-party directory)",
+    "loan_terms": "Ask",
+    "accepts_donations": "yes",
+    "phone": "731-554-5105",
+    "email": "",
+    "website": "",
+    "hours": "",
+    "notes": "One of TTAP's regional assistive technology centers. The phone number comes from a third-party directory, so confirm it before you drive over.",
+    "confidence": "directory",
+    "sources": [
+      {
+        "title": "SeniorsMobility: Free Medical Equipment in Tennessee (third-party list)",
+        "url": "https://seniorsmobility.org/?p=18165"
+      },
+      {
+        "title": "TTAP partner centers, including The STAR Center in Jackson (2017 presentation)",
+        "url": "https://www.slideshare.net/slideshow/assistive-technology-a-review-for-beginners/93733444"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "spark-knoxville",
+    "name": "Spark (formerly ETTAC) — Mobility & Medical Equipment",
+    "region": "east",
+    "city": "Knoxville",
+    "county": "Knox",
+    "address": "116 Childress St, Knoxville, TN 37920",
+    "offers": [
+      "borrow",
+      "donate"
+    ],
+    "equipment": [
+      "Wheelchairs",
+      "Scooters",
+      "Rollators and walkers",
+      "Canes and crutches",
+      "Hospital beds",
+      "Bedside toilets",
+      "Bed rails",
+      "Hoyer lifts",
+      "Incontinence products"
+    ],
+    "serves": "People who need mobility or medical equipment across Spark's 23-county area.",
+    "cost": "A minimum donation per item is now required, but Spark says it doesn't turn people away for lack of funds.",
+    "loan_terms": "Ask",
+    "accepts_donations": "yes",
+    "phone": "865-219-0130",
+    "email": "",
+    "website": "https://www.sparktn.org/",
+    "hours": "Equipment pickup: Tuesdays and Thursdays, 9 a.m.–4 p.m. (per WBIR)",
+    "notes": "Spark cleans and repairs donated equipment before passing it on, and has started delivery and pickup services.",
+    "confidence": "news",
+    "sources": [
+      {
+        "title": "WBIR: Spark mobility expands mission",
+        "url": "https://wbir.com/article/life/heartwarming/spark-mobility-expands-mission/51-a130d41f-566b-4e42-9097-07a4de8e8160"
+      },
+      {
+        "title": "Knoxville News Sentinel (via Yahoo): Spark phone and South Knoxville office",
+        "url": "https://news.yahoo.com/shopper-blog-plan-may-not-175148080.html?fr=sycsrp_catchall"
+      },
+      {
+        "title": "U.S. Department of Labor directory listing: Spark formerly ETTAC (address, phone, website)",
+        "url": "https://ofccp-apps.dol.gov/node/326102"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "goodwill-chattanooga-helps",
+    "name": "Goodwill of the Greater Chattanooga Area — HELPs Equipment Program",
+    "region": "southeast",
+    "city": "Chattanooga",
+    "county": "Hamilton",
+    "address": "Goodwill Opportunity Campus, 6104 Preservation Drive, Chattanooga, TN 37416",
+    "offers": [
+      "borrow",
+      "donate"
+    ],
+    "equipment": [
+      "Wheelchairs and power chairs",
+      "Walkers and other durable medical equipment"
+    ],
+    "serves": "Anyone with a disability or injury in Goodwill's 23-county area of Southeast Tennessee and North Georgia, per AARP.",
+    "cost": "Free",
+    "loan_terms": "Goodwill asks that you return items when you no longer use them.",
+    "accepts_donations": "yes",
+    "phone": "423-629-2501 (Opportunity Campus)",
+    "email": "",
+    "website": "https://www.goodwillchatt.org",
+    "hours": "",
+    "notes": "Goodwill's HELPs program passes donated equipment on for free. AARP reported that a prescription was needed for wheelchairs and power chairs. Call to confirm the program is still running, and its current rules.",
+    "confidence": "news",
+    "sources": [
+      {
+        "title": "AARP Tennessee: Recycle Your Old Medical Equipment",
+        "url": "https://states.aarp.org/tn-crutches"
+      },
+      {
+        "title": "HME News: Goodwill turns HME trash into another man's treasure",
+        "url": "https://www.hmenews.com/article/goodwill-turns-hme-trash-another-mans-treasure"
+      },
+      {
+        "title": "Warren County, TN news release listing Goodwill locations (Apr 30, 2025)",
+        "url": "https://www.warrentn.com/news/details/news-release-4-30-2025-04-30-2025"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "signal-centers-at-chattanooga",
+    "name": "Signal Centers Assistive Technology Center",
+    "region": "southeast",
+    "city": "Chattanooga",
+    "county": "Hamilton",
+    "address": "2300 Bailey Avenue, Chattanooga, TN 37404",
+    "offers": [
+      "borrow"
+    ],
+    "equipment": [
+      "Assistive technology devices"
+    ],
+    "serves": "People with disabilities in Southeast Tennessee. One of TTAP's regional assistive technology centers.",
+    "cost": "Ask",
+    "loan_terms": "Ask about the TTAP device loan program.",
+    "accepts_donations": "ask",
+    "phone": "423-698-8528",
+    "email": "",
+    "website": "https://www.signalatcenter.org",
+    "hours": "",
+    "notes": "Best for assistive technology (home and workplace devices) rather than beds or wheelchairs. Ask what's available to borrow.",
+    "confidence": "directory",
+    "sources": [
+      {
+        "title": "Tennessee Library for the Deaf and Hard of Hearing: Signal Centers' Assistive Technology Services",
+        "url": "https://tndeaflibrary.nashville.gov/resources/signal-centers-assistive-technology-services"
+      },
+      {
+        "title": "TTAP partner centers (2017 presentation)",
+        "url": "https://www.slideshare.net/slideshow/assistive-technology-a-review-for-beginners/93733444"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "roan-creek-baptist-mountain-city",
+    "name": "Roan Creek Baptist Church — Medical Equipment Ministry",
+    "region": "east",
+    "city": "Mountain City",
+    "county": "Johnson",
+    "address": "Lumpkin Branch Road, Mountain City, TN 37683",
+    "offers": [
+      "borrow",
+      "donate"
+    ],
+    "equipment": [
+      "Hospital beds",
+      "Walkers",
+      "Other medical equipment and supplies"
+    ],
+    "serves": "People in the community — the church reported having 'basically any item a senior adult might need.'",
+    "cost": "Free",
+    "loan_terms": "Ask",
+    "accepts_donations": "yes",
+    "phone": "423-727-7061",
+    "email": "",
+    "website": "",
+    "hours": "",
+    "notes": "Volunteers have picked up donated equipment and delivered to people who can't come get it, according to Baptist & Reflector. The phone number comes from church directories, so confirm it when you call.",
+    "confidence": "news",
+    "sources": [
+      {
+        "title": "Baptist & Reflector: Church's medical equipment ministry is 'God-sent' (Nov 11, 2024)",
+        "url": "https://baptistandreflector.org/churchs-medical-equipment-ministry-is-god-sent"
+      },
+      {
+        "title": "Church directory listing for Roan Creek Baptist Church",
+        "url": "https://churcheslist.com/roan-creek-baptist-church"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  }
+]

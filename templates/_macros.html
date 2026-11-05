@@ -1,0 +1,45 @@
+{% macro badge(text, kind='') -%}
+<span class="badge{% if kind %} badge-{{ kind }}{% endif %}">{{ text }}</span>
+{%- endmacro %}
+
+{% macro confidence_note(level) -%}
+{% if level == 'official' %}<span class="conf conf-official" title="Details match the organization's own web page">✓ Checked against their own site</span>
+{% elif level == 'news' %}<span class="conf conf-news" title="Details come from a news story; call to confirm">◐ From news coverage — call to confirm</span>
+{% else %}<span class="conf conf-directory" title="Details come from a third-party directory; call to confirm">○ From a directory — call to confirm</span>{% endif %}
+{%- endmacro %}
+
+{% macro listing_card(l, region_names) -%}
+<article class="card listing" id="{{ l.id }}" data-region="{{ l.region }}" data-offers="{{ l.offers | join(' ') }}" data-text="{{ (l.name ~ ' ' ~ l.city ~ ' ' ~ l.county ~ ' ' ~ (l.equipment | join(' '))) | lower }}">
+  <header>
+    <h3>{{ l.name }}</h3>
+    <p class="where">{{ l.city }}{% if l.county %} · {{ l.county }} County{% endif %} · {{ region_names[l.region] }}</p>
+    <p class="badges">
+      {% if 'borrow' in l.offers %}{{ badge('Borrow', 'borrow') }}{% endif %}
+      {% if 'donate' in l.offers or l.accepts_donations == 'yes' %}{{ badge('Takes donations', 'donate') }}{% elif l.accepts_donations == 'ask' %}{{ badge('Donations: ask', 'ask') }}{% endif %}
+      {% if l.cost and l.cost.lower().startswith('free') %}{{ badge('Free', 'free') }}{% endif %}
+    </p>
+  </header>
+  <dl class="facts">
+    <dt>Equipment</dt><dd>{{ l.equipment | join(', ') }}</dd>
+    <dt>Who it serves</dt><dd>{{ l.serves }}</dd>
+    <dt>Cost</dt><dd>{{ l.cost }}</dd>
+    {% if l.loan_terms %}<dt>Loan terms</dt><dd>{{ l.loan_terms }}</dd>{% endif %}
+    {% if l.hours %}<dt>Hours</dt><dd>{{ l.hours }}</dd>{% endif %}
+    {% if l.address %}<dt>Where</dt><dd>{{ l.address }}</dd>{% endif %}
+    {% if l.notes %}<dt>Good to know</dt><dd>{{ l.notes }}</dd>{% endif %}
+  </dl>
+  <p class="actions">
+    {% if l.phone %}<a class="btn btn-primary" href="tel:{{ l.phone | telhref }}">Call {{ l.phone }}</a>{% endif %}
+    {% if l.email %}<a class="btn" href="mailto:{{ l.email }}">Email</a>{% endif %}
+    {% if l.website %}<a class="btn" href="{{ l.website }}" rel="noopener">Website</a>{% endif %}
+  </p>
+  <footer class="provenance">
+    {{ confidence_note(l.confidence) }}
+    <span class="checked">Last checked {{ l.last_checked | human_date }}</span>
+    <details>
+      <summary>Sources</summary>
+      <ul>{% for s in l.sources %}<li><a href="{{ s.url }}" rel="noopener">{{ s.title }}</a></li>{% endfor %}</ul>
+    </details>
+  </footer>
+</article>
+{%- endmacro %}

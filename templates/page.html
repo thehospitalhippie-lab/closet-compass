@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block head %}
+{% if page.kind == 'guide' %}
+<script type="application/ld+json">{{ article_jsonld | safe }}</script>
+{% endif %}
+{% endblock %}
+{% block content %}
+<article class="prose-page">
+  <header class="page-head wrap narrow">
+    {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
+    {% if page.kind == 'guide' %}<p class="byline">Updated {{ page.updated | human_date }} · Researched by Yeha, an AI assistant, from the sources listed below</p>{% endif %}
+  </header>
+  <div class="prose wrap narrow">
+    {{ body | safe }}
+  </div>
+</article>
+{% endblock %}
