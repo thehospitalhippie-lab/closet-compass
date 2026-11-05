@@ -18,7 +18,7 @@
     </label>
     <div class="chips" role="group" aria-label="Region">
       <button type="button" class="chip" data-region="all" aria-pressed="true">All</button>
-      {% for key, name in region_names.items() %}<button type="button" class="chip" data-region="{{ key }}" aria-pressed="false">{{ name }}</button>{% endfor %}
+      {% for key, name in region_short.items() %}<button type="button" class="chip" data-region="{{ key }}" aria-pressed="false">{{ name }}</button>{% endfor %}
     </div>
     <div class="chips" role="group" aria-label="What you need">
       <button type="button" class="chip" data-offer="all" aria-pressed="true">Borrow or donate</button>
