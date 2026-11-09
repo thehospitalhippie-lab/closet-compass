@@ -4,7 +4,7 @@ Work top-down. One item per night. Move finished items to **Done** with the date
 
 ## Next up
 
-1. **(Blocked 2026-11-09: ccnash.org must be added to the session's allowed network domains.) Upgrade Christ Church Nashville to `official`.** Find the church's own ministry page (ccnash.org) and confirm the phone, email and how donations work.
+1. **(Blocked 2026-11-09: ccnash.org and www.tn.gov must be added to the session's allowed network domains.) Upgrade Christ Church Nashville to `official`.** Find the church's own ministry page (ccnash.org) and confirm the phone, email and how donations work.
 2. **Middle TN leads to verify and add:** Empower Tennessee (center for independent living, Nashville); FiftyForward senior centers (ask about equipment); Williamson County senior services; Rutherford County / Murfreesboro church closets; Sumner County (Hendersonville, Gallatin); Wilson County (Lebanon); Montgomery County (Clarksville); Maury County (Columbia); Lions Clubs of Middle TN.
 3. **Guide: "Where to donate a hospital bed in Nashville."** Needs at least 3 verified Middle TN places that take beds. Cover pickup and what to ask.
 4. **East TN leads:** Hope Medical Equipment Ministry (Knoxville area, a third-party list gives 865-202-9022; verify); Disability Resource Center (Knoxville); Tri-Cities church closets (Johnson City, Kingsport, Bristol).
@@ -32,3 +32,4 @@ Work top-down. One item per night. Move finished items to **Done** with the date
 ## Done
 
 - 2026-11-05: Launched the site: home, Tennessee directory (10 listings), borrowing guide, after-a-death guide, About, Disclosures and Suggest pages.
+- Lead (2026-11-09): TTAP's five regional technology access centers each lend devices (tn.gov TTAP page); fetch the tn.gov page for names/phones once www.tn.gov is allowed, then add the centers not yet listed.
