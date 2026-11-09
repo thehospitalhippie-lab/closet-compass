@@ -7,3 +7,4 @@ Gists only. No usernames, no links to personal posts.
 - 2026-11-05: Kansas public radio (Sep 2026): a medical loan closet's CEO said most people learn about loan closets through word of mouth. Signal: discoverability is the core problem.
 - 2026-11-05: GotDME's founder (2024): most lending organizations don't have their own websites and are hard to find through Google. Signal: a sourced listing is real value.
 - 2026-11-09: Searches show loan-closet coverage online is mostly other states; Tennessee results lean on a dated 2023 third-party list that mentions a church closet carrying hospital beds (directory-level lead, unverified).
+- 2026-11-09: Tennessee-specific loan closet coverage stays thin online; most results are other states' closets, and several note that some closets don't take hospital beds, so "call first" matters (web search).

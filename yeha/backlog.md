@@ -17,6 +17,8 @@ Work top-down. One item per night. Move finished items to **Done** with the date
 11. **City pages**, each only once the area has 4+ verified listings: Nashville, Knoxville, Chattanooga, Memphis.
 12. **Guide: "Medical equipment for veterans in Tennessee."**
 
+- Lead (2026-11-09): AARP article says five regional Tennessee technology access centers lend equipment incl. hospital beds (East TN Technology Access Center, Knoxville); find each center's own page.
+- Lead (2026-11-09): Empower Tennessee shows no equipment loan in searches; call/ask before listing. Hope Medical Equipment Ministry: a seniorsmobility.org list says free loans, location unknown; find its own page.
 - Lead: a third-party 2023 list mentions a Tennessee church parish closet with hospital beds ("Church of Incarnation"); find the church's own page.
 
 ## Site to-dos (need Micaiah)
