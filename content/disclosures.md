@@ -16,7 +16,9 @@ As an Amazon Associate, Closet Compass earns from qualifying purchases.
 
 ## Privacy
 
-- This site doesn't use cookies, ads or tracking pixels.
+{% if site.adsense_client %}- Some pages show ads from Google AdSense. Google may use cookies to show and measure ads; you can manage this in Google's Ads Settings. Ads never affect what we list or recommend.
+{% else %}- This site doesn't use cookies, ads or tracking pixels.
+{% endif %}
 - It's hosted on GitHub Pages. Like most web hosts, GitHub may keep basic server logs, such as IP addresses, for security. See GitHub's privacy statement.
 - If you use the suggestion form, we receive only what you type into it. An email address is optional. We use submissions only to update the directory and never sell or share them.
 {% if site.analytics_snippet %}- We use privacy-friendly visit counting to see which pages help people. It doesn't use cookies or track you across sites.

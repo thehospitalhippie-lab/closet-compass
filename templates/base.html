@@ -16,6 +16,7 @@
   <link rel="icon" href="{{ url('/static/favicon.svg') }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ url('/static/style.css') }}?v={{ build_id }}">
   {% block head %}{% endblock %}
+  {% if site.adsense_client and not page.no_ads %}<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense_client }}" crossorigin="anonymous"></script>{% endif %}
   {% if site.analytics_snippet %}{{ site.analytics_snippet | safe }}{% endif %}
 </head>
 <body>

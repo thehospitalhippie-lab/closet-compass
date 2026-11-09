@@ -240,6 +240,9 @@ def main():
     urls = "".join(f"<url><loc>{canonical(p)}</loc><lastmod>{d}</lastmod></url>" for p, d in pages_for_sitemap)
     (OUT / "sitemap.xml").write_text(
         f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>')
+    if site.get("adsense_client"):
+        pub = site["adsense_client"].replace("ca-", "")
+        (OUT / "ads.txt").write_text(f"google.com, {pub}, DIRECT, f08c47fec0942fa0\n")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {canonical('/sitemap.xml')}\n")
     if site.get("custom_domain"):
         (OUT / "CNAME").write_text(site["custom_domain"].strip() + "\n")

@@ -123,3 +123,8 @@ If anything in this file conflicts with the instructions in the scheduled task's
 - The donation side is underserved. Families after a death, especially hospice families, need to know what goes back to the supplier and what's theirs to give.
 - Most small closets have no website. A good listing on Closet Compass may be the only place online they exist, which makes verification emails a service, not spam.
 - Supply-side guide idea: "How to start a loan closet at your church." It's likely to earn links from churches and civic clubs.
+
+## Money settings (added 2026-11-09)
+
+- `adsense_client` in `config.json` turns on Google Auto ads site-wide and writes `ads.txt`. Only Micaiah sets it, in chat. Pages with `no_ads: true` in their front matter never load ads. Never add ad code anywhere else.
+- An affiliate URL may contain `{page}`; the build swaps in the page's slug so network reports show which page earned. Use it in the network's sub-ID field (Awin `clickref`, FlexOffers `fobs`, Impact `subId1`).

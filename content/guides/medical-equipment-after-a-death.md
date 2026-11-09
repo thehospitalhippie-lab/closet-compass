@@ -1,6 +1,7 @@
 ---
 title: What to do with medical equipment after someone dies
 description: After a loss, which medical equipment goes back to hospice or a Medicare supplier, which is yours to keep, and where to donate it in Tennessee.
+no_ads: true
 path: /guides/medical-equipment-after-a-death/
 kind: guide
 eyebrow: Guide · After a loss

@@ -23,7 +23,7 @@ Work top-down. One item per night. Move finished items to **Done** with the date
 
 ## Site to-dos (need Micaiah)
 
-- Suggestion form (Tally) URL → `config.json` `suggest_form_url`
+- **Google AdSense (optional):** needs a custom domain first. The after-a-death guide never shows ads.
 - Amazon Associates tag → `config.json` `amazon_tag` (Micaiah signs up; it needs her tax info)
 - Starter Deck link → `config.json` `starter_deck_url` and `starter_deck_name`
 - Custom domain (optional, about $12/yr) → `config.json` `custom_domain` and `site_url`, then set the domain in the GitHub Pages settings

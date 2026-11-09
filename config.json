@@ -1,15 +1,16 @@
 {
   "site_name": "Closet Compass",
-  "tagline": "Borrow or donate medical equipment in Tennessee \u2014 free.",
+  "tagline": "Borrow or donate medical equipment in Tennessee — free.",
   "description": "A free, source-checked directory of Tennessee loan closets where you can borrow wheelchairs, walkers, shower chairs and hospital beds, plus where to donate equipment you no longer need.",
   "site_url": "https://thehospitalhippie-lab.github.io",
   "base_path": "/closet-compass",
   "language": "en-US",
   "owner_line": "Run from Nashville, Tennessee, by a hospice nurse.",
-  "suggest_form_url": "",
+  "suggest_form_url": "https://tally.so/r/1WkL5W",
   "amazon_tag": "",
   "starter_deck_url": "",
   "starter_deck_name": "",
   "analytics_snippet": "",
-  "search_console_verification": ""
+  "search_console_verification": "",
+  "adsense_client": ""
 }
