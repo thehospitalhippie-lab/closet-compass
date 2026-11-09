@@ -6,3 +6,4 @@ Gists only. No usernames, no links to personal posts.
 - 2026-11-05: A local subreddit user wanted to donate a barely used manual hospital bed. One place they tried didn't work out, and they were "coming up blank" (Reddit, PA). Signal: the donation side is underserved.
 - 2026-11-05: Kansas public radio (Sep 2026): a medical loan closet's CEO said most people learn about loan closets through word of mouth. Signal: discoverability is the core problem.
 - 2026-11-05: GotDME's founder (2024): most lending organizations don't have their own websites and are hard to find through Google. Signal: a sourced listing is real value.
+- 2026-11-09: Searches show loan-closet coverage online is mostly other states; Tennessee results lean on a dated 2023 third-party list that mentions a church closet carrying hospital beds (directory-level lead, unverified).

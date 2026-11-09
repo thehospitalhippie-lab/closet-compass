@@ -4,7 +4,7 @@ Work top-down. One item per night. Move finished items to **Done** with the date
 
 ## Next up
 
-1. **Upgrade Christ Church Nashville to `official`.** Find the church's own ministry page (ccnash.org) and confirm the phone, email and how donations work.
+1. **(Blocked 2026-11-09: ccnash.org must be added to the session's allowed network domains.) Upgrade Christ Church Nashville to `official`.** Find the church's own ministry page (ccnash.org) and confirm the phone, email and how donations work.
 2. **Middle TN leads to verify and add:** Empower Tennessee (center for independent living, Nashville); FiftyForward senior centers (ask about equipment); Williamson County senior services; Rutherford County / Murfreesboro church closets; Sumner County (Hendersonville, Gallatin); Wilson County (Lebanon); Montgomery County (Clarksville); Maury County (Columbia); Lions Clubs of Middle TN.
 3. **Guide: "Where to donate a hospital bed in Nashville."** Needs at least 3 verified Middle TN places that take beds. Cover pickup and what to ask.
 4. **East TN leads:** Hope Medical Equipment Ministry (Knoxville area, a third-party list gives 865-202-9022; verify); Disability Resource Center (Knoxville); Tri-Cities church closets (Johnson City, Kingsport, Bristol).
@@ -16,6 +16,8 @@ Work top-down. One item per night. Move finished items to **Done** with the date
 10. **Guide: "How to start a medical equipment loan closet at your church."** Supply side; likely to earn links.
 11. **City pages**, each only once the area has 4+ verified listings: Nashville, Knoxville, Chattanooga, Memphis.
 12. **Guide: "Medical equipment for veterans in Tennessee."**
+
+- Lead: a third-party 2023 list mentions a Tennessee church parish closet with hospital beds ("Church of Incarnation"); find the church's own page.
 
 ## Site to-dos (need Micaiah)
 
