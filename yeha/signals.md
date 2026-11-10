@@ -9,3 +9,4 @@ Gists only. No usernames, no links to personal posts.
 - 2026-11-09: Searches show loan-closet coverage online is mostly other states; Tennessee results lean on a dated 2023 third-party list that mentions a church closet carrying hospital beds (directory-level lead, unverified).
 - 2026-11-09: Tennessee-specific loan closet coverage stays thin online; most results are other states' closets, and several note that some closets don't take hospital beds, so "call first" matters (web search).
 - 2026-11-09: Searches for Nashville loan closets again returned mostly other states; Tennessee's five technology access centers (via TTAP) are the main public lending route found (web search).
+- 2026-11-10: Searches for Nashville loan closets/free hospital beds return mostly out-of-state results (web).
