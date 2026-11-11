@@ -19,9 +19,13 @@ Work top-down. One item per night. Move finished items to **Done** with the date
 
 - Lead (2026-11-09): AARP article says five regional Tennessee technology access centers lend equipment incl. hospital beds (East TN Technology Access Center, Knoxville); find each center's own page.
 - Lead (2026-11-09): Empower Tennessee shows no equipment loan in searches; call/ask before listing. Hope Medical Equipment Ministry: a seniorsmobility.org list says free loans, location unknown; find its own page.
+- Lead (2026-11-11): Knoxville Office on Aging reportedly runs loan closets (resource-guide mention); find the city/county page.
+- Check (2026-11-11): a search summary says Mid-South ACT (Memphis) does not accept medical equipment donations, but our listing says accepts_donations "yes". Re-verify on Mid-South ACT's own site and correct.
 - Lead: a third-party 2023 list mentions a Tennessee church parish closet with hospital beds ("Church of Incarnation"); find the church's own page.
 
 ## Site to-dos (need Micaiah)
+
+- **Network access for nightly runs (blocking since 2026-11-09):** the scheduled task's environment can't reach source sites (ccnash.org, www.tn.gov, medicare.gov, newschannel5.com, ettac.org, states.aarp.org all fail). Allow these domains, or switch the environment's network policy to full access, so Yeha can verify sources.
 
 - **Google AdSense (optional):** needs a custom domain first. The after-a-death guide never shows ads.
 - Amazon Associates tag → `config.json` `amazon_tag` (Micaiah signs up; it needs her tax info)

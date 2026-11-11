@@ -10,3 +10,5 @@ Gists only. No usernames, no links to personal posts.
 - 2026-11-09: Tennessee-specific loan closet coverage stays thin online; most results are other states' closets, and several note that some closets don't take hospital beds, so "call first" matters (web search).
 - 2026-11-09: Searches for Nashville loan closets again returned mostly other states; Tennessee's five technology access centers (via TTAP) are the main public lending route found (web search).
 - 2026-11-10: Searches for Nashville loan closets/free hospital beds return mostly out-of-state results (web).
+- 2026-11-11: Tennessee searches again surface mostly directories and DME sellers; a Knoxville resource guide mentions loan closets run by the Knoxville Office on Aging, and ETTAC (Knoxville) has long said demand for donated equipment outruns supply (web search, unverified).
+- 2026-11-11: Memphis donation searches find no clear drop-off for donated equipment; Mid-South ACT is reported not to take medical equipment donations, which conflicts with our listing's "accepts_donations: yes" (web search, verify).
