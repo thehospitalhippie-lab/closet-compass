@@ -21,6 +21,7 @@ Work top-down. One item per night. Move finished items to **Done** with the date
 - Lead (2026-11-09): Empower Tennessee shows no equipment loan in searches; call/ask before listing. Hope Medical Equipment Ministry: a seniorsmobility.org list says free loans, location unknown; find its own page.
 - Lead (2026-11-11): Knoxville Office on Aging reportedly runs loan closets (resource-guide mention); find the city/county page.
 - Check (2026-11-11): a search summary says Mid-South ACT (Memphis) does not accept medical equipment donations, but our listing says accepts_donations "yes". Re-verify on Mid-South ACT's own site and correct.
+- Lead (2026-11-13): DDA Innovation Centers (wheelchair seating; Arlington, Nashville, Greeneville) reportedly went to online-only applications Nov 1, 2026; verify on tn.gov and consider a short note in the borrowing guide's "No loan closet near you?" section.
 - Lead: a third-party 2023 list mentions a Tennessee church parish closet with hospital beds ("Church of Incarnation"); find the church's own page.
 
 ## Site to-dos (need Micaiah)

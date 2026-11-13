@@ -12,3 +12,5 @@ Gists only. No usernames, no links to personal posts.
 - 2026-11-10: Searches for Nashville loan closets/free hospital beds return mostly out-of-state results (web).
 - 2026-11-11: Tennessee searches again surface mostly directories and DME sellers; a Knoxville resource guide mentions loan closets run by the Knoxville Office on Aging, and ETTAC (Knoxville) has long said demand for donated equipment outruns supply (web search, unverified).
 - 2026-11-11: Memphis donation searches find no clear drop-off for donated equipment; Mid-South ACT is reported not to take medical equipment donations, which conflicts with our listing's "accepts_donations: yes" (web search, verify).
+- 2026-11-13: Nashville loan-closet searches again surface mostly out-of-state programs; the only Nashville lending program named is the church equipment ministry already listed. A Nashville DME storefront chain shows up but is commercial, not a loan closet (web search).
+- 2026-11-13: Search summaries say Tennessee's DDA Innovation Centers (wheelchair seating; Arlington, Nashville, Greeneville) moved to an online-only application on Nov 1, 2026 (tn.gov, unverified tonight).
