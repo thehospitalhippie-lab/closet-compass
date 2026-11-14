@@ -7,3 +7,4 @@
 - 2026-11-10: Nothing shipped. www.tn.gov does not resolve and ccnash.org returns 503 from the cloud session; a Nashville loan-closet search found no new Tennessee leads.
 - 2026-11-11: Nothing shipped. Every source host tried (ccnash.org, catada.info, www.ettac.org, states.aarp.org, www.medicare.gov, www.newschannel5.com) is blocked by the session's network policy, so no fact could be verified; no Tally corrections; no listing is past 90 days.
 - 2026-11-13: Nothing shipped. www.memphis.edu and www.tn.gov still fail to resolve and other source hosts are blocked by the session's network policy, so no fact could be verified; no Tally corrections; no listing is past 90 days.
+- 2026-11-14: Nothing shipped. www.memphis.edu and joniandfriends.org fail to resolve (session network policy), so no fact could be verified; no Tally corrections; no listing is past 90 days.
